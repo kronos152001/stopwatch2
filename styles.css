@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('_33dc2c0d-ed9c-4f99-a793-9a59aea81f9a.jpeg'); /* Replace with the path to your background image */
+  background-size: cover;
+  background-position: center;
+}
+
+stopwatch-container {
+  background-color: rgba(176, 223, 246, 0.8); /* Light Blue background for the stopwatch container */
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 250px; /* Adjust the width and height as needed */
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.stopwatch {
+  text-align: center;
+}
+
+.display {
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #1e2a38;
+}
+
+button {
+  font-size: 1.5em;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
